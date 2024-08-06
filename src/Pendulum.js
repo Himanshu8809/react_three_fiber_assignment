@@ -4,7 +4,7 @@ import { Cylinder, Sphere, Text } from '@react-three/drei';
 import * as THREE from 'three';
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-
+// for graph
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 function Pendulum({ isSwinging, gravityOn, onEnergyUpdate }) {
